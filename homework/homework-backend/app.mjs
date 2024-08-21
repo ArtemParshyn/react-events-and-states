@@ -7,7 +7,7 @@ import { isAuthenticated } from './auth.mjs';
 import swaggerUi from 'swagger-ui-express';
 import { swaggerSpec } from './swagger.mjs';
 
-export function getPort(port = 3001) {
+export function getPort(port = 4000) {
     return port;
 }
 
